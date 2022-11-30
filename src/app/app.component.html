@@ -2,6 +2,13 @@
   <div class="upper-data">
     <img src="../assets/hot.png" alt="hot" *ngIf="14>15">
     <img src="../assets/cold.png" alt="cold" *ngIf="14<=15">
+
+    <div class="wheather-data">
+      <div class="location">Baku</div>
+      <div class="temperture">
+        {{14.40| number: '1.0-0'}}&deg;C
+      </div>
+    </div>
   </div>
   <div class="low-data">
 
