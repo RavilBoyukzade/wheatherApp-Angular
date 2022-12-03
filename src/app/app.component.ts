@@ -17,7 +17,6 @@ export class AppComponent implements OnInit {
   cityName:string='Baku';
   weatherData?:WeatherData;
 
-
   ngOnInit(): void {
      this.getWeatherData(this.cityName);
      this.cityName=' ';
